@@ -7,6 +7,9 @@ module.exports = {
     },
     mongodb:{
         dbURI:'mongodb+srv://db-auth-test:123456password@cluster0-melyy.mongodb.net/test?retryWrites=true&w=majority'
+    },
+    session:{
+        cookieKey:'shiowdog',
     }
 
 }
